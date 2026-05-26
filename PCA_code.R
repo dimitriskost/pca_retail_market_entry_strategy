@@ -6,6 +6,7 @@
 # 1. Dependencies              ----
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+# Necessary Packages
 # install.packages(c("eurostat", "tidyverse", "janitor", "psych", "corrplot", "ggrepel"))
 
 library(eurostat)
