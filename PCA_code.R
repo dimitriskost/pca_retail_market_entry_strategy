@@ -334,7 +334,7 @@ head(loads_pc1_pc2_tilde[order(-abs(loads_pc1_pc2_tilde[, 1])), 1])
 head(loads_pc1_pc2_tilde[order(-abs(loads_pc1_pc2_tilde[, 2])), 2])
 
 city_scores_non_std <- data.frame(
-  City = df$cities,  # Άλλαξε το 'df' με το όνομα του αρχικού σου dataset αν χρειάζεται
+  City = df$cities,  
   PC1 = m1$x[, 1],
   PC2 = m1$x[, 2]
 )
